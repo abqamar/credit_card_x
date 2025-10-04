@@ -1,0 +1,35 @@
+name: credit_card_x
+description: A flexible credit/debit card UI widget with flip animation for Flutter.
+version: 0.0.1
+homepage: https://github.com/abqamar/credit_card_x.git
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.0.0
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Kredit
+      fonts:
+        - asset: fonts/Kredit-Front.otf
+
+    - family: KreditBold
+      fonts:
+        - asset: fonts/Kredit-Back.otf
+
+  assets:
+    - assets/Mastercard-Logo.png
+    - assets/Visa_Logo.png
+    - assets/Amex.png
+    - assets/chip.png
